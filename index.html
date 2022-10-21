@@ -446,15 +446,35 @@
         </h2>
 
         <div class="project__categories">
-          <button class="category__btn text-xs active-work">TODOS</button>
-          <button class="category__btn text-xs">INSTITUCIONAIS</button>
-          <button class="category__btn text-xs">LANDING PAGES</button>
-          <button class="category__btn text-xs">APIs</button>
+          <button
+            class="category__btn text-xs active-work"
+            data-filter="all"
+          >
+            TODOS
+          </button>
+          <button 
+            class="category__btn text-xs"
+            data-filter=".web"
+          >
+            INSTITUCIONAIS
+          </button>
+          <button 
+            class="category__btn text-xs"
+            data-filter=".landing"
+          >
+            LANDING PAGES
+          </button>
+          <button
+            class="category__btn text-xs"
+            data-filter=".api"
+          >
+            APIs
+          </button>
         </div>
 
         <div class="projects__container grid">
 
-          <div class="project__item grid">
+          <div class="project__item grid mix api">
             <img
               src="./assets/img/project-1.png"
               alt=""
@@ -484,7 +504,7 @@
             </div>
           </div>
 
-          <div class="project__item grid">
+          <div class="project__item grid mix web">
             <img
               src="./assets/img/project-1.png"
               alt=""
@@ -514,7 +534,7 @@
             </div>
           </div>
 
-          <div class="project__item grid">
+          <div class="project__item grid mix landing">
             <img
               src="./assets/img/project-1.png"
               alt=""
