@@ -19,3 +19,32 @@
   align-items: flex-start;
   column-gap: .3rem;
 }
+
+
+.category__btn {
+  color: var(--text-color-alt);
+  font-weight: var(--bold);
+  font-family: var(--mono-font);
+  position: relative;
+}
+
+.category__btn:hover{
+  color: var(--primary-color);
+}
+
+
+.category__btn::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: -.5rem;
+  width: 7px;
+  height: 2px;
+  background-color: var(--primary-color);
+  opacity: 0;
+  transition: .3s;
+}
+
+.category__btn:hover::after{
+  opacity: 1;
+}
