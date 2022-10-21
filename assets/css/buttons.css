@@ -48,3 +48,9 @@
 .category__btn:hover::after{
   opacity: 1;
 }
+
+.contact__button{
+  margin-top: 1.875rem;
+  width: 100%;
+  box-shadow: 0 1px 29px rgb(0 0 0 / 40%);
+}
