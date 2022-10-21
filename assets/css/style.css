@@ -124,6 +124,11 @@ input {
   line-height: 1.43em;
 }
 
+.text-xs{
+  font-size: var(--fs-xs);
+  line-height: 1.5em;
+}
+
 .skills__title,
 .resume__title {
   color: var(--text-color-alt);
@@ -135,7 +140,7 @@ input {
 /* Scroll Header */
 
 
-/*=============== Projects ===============*/
+
 
 /*=============== Testimonials ===============*/
 
