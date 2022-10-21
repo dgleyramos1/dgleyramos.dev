@@ -1,0 +1,7 @@
+/* Active Link */
+.active-link{
+  opacity: .5;
+}
+.active-link::after{
+  opacity: 1;
+}
