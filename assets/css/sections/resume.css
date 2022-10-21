@@ -4,11 +4,6 @@
   column-gap: 3.75rem;
 }
 
-.resume__title {
-  color: var(--text-color-alt);
-  letter-spacing: .4em;
-  margin-bottom: 2.8em;
-}
 
 .resume__item {
   border-left: 2px solid var(--primary-color);

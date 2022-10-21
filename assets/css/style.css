@@ -124,11 +124,16 @@ input {
   line-height: 1.43em;
 }
 
+.skills__title,
+.resume__title {
+  color: var(--text-color-alt);
+  letter-spacing: .4em;
+  margin-bottom: 2.8em;
+}
+
 
 /* Scroll Header */
 
-
-/*=============== Skills ===============*/
 
 /*=============== Projects ===============*/
 

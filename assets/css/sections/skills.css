@@ -1,0 +1,31 @@
+/*=============== Skills ===============*/
+.skills__container {
+  grid-template-columns: repeat(2, 445px);
+  column-gap: 7rem;
+}
+
+.skills__list {
+  row-gap: 1.8rem;
+}
+
+.skills__titles{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .625rem;
+}
+
+.skills__bar,
+.skills__percentage{
+  height: 5px;
+  border-radius: .25rem;
+}
+
+.skills__bar{
+  background-color: var(--bg-color-alt);
+}
+
+
+.skills__percentage{
+  display: block;
+  background-color: var(--primary-color);
+}
