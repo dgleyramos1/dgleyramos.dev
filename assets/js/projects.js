@@ -130,7 +130,8 @@ function criarLink(pathLink){
   link.href = pathLink;
   link.classList.add('project__link--item');
   link.classList.add('text-sm');
-  link.textContent = "Demostração"
+  link.textContent = "Demostração";
+  link.setAttribute('target', '_blank');
   return link;
 }
 
