@@ -49,6 +49,12 @@
 .project__link{
   float: right;
   margin-top: 3.9em;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__link--item{
   color: var(--primary-color);
   font-family: var(--mono-font);
 }

@@ -19,3 +19,15 @@ let mixerProjects = mixitup('.projects__container', {
 });
 
 /*=============== Testimonials Swiper =============== */
+let swiper = new Swiper('.testimonial__container', {
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  mousewheel: true,
+  keyboard: true,
+})
