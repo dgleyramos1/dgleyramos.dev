@@ -105,3 +105,28 @@
 .color-dark{
   opacity: .4;
 }
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  .contact__container{
+    grid-template-columns: 5fr 7fr;
+  }
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+  .contact__container{
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+}

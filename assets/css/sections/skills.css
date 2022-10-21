@@ -29,3 +29,29 @@
   display: block;
   background-color: var(--primary-color);
 }
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {
+  .skills__container{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 992px) {}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+  .skills__container{
+    grid-template-columns: 1fr;
+    row-gap: 3.75rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+}

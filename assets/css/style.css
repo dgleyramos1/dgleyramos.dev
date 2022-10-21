@@ -137,25 +137,49 @@ input {
 }
 
 
-
-
 /*=============== Style Switcher ===============*/
 
 /*=============== BreakPoints ===============*/
 /* for large devices */
 @media screen and (max-width: 1200px) {
+  :root{
+    --fs-h1: 2.25rem;
+    --fs-h2: 1.75rem;
+    --fs-lg: 1rem;
+    --fs-base: .938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.687rem;
+  }
+  .container{
+    max-width: 960px;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .container{
+    max-width: 720px;
+  }
+  .section{
+    padding: 3rem 0;
+  }
 }
 
 /* for medium devices */
 @media screen and (max-width: 768px) {
+  .container{
+    max-width: 540px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .section{
+    padding: 3rem 1rem;
+  }
 }
 
 /* for small devices */
 @media screen and (max-width: 350px) {
+  :root{
+    --fs-h1: 2rem;
+  }
 }

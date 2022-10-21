@@ -39,3 +39,26 @@
 .resume__description{
   text-align: justify;
 }
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .resume__container{
+    grid-template-columns: 1fr;
+    row-gap: 3.75rem;
+  }
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+}

@@ -83,3 +83,52 @@
 .home__social-link:hover{
   opacity: 1;
 }
+
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {
+  .home__container{
+    grid-template-columns: 5fr 7fr;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home{
+    padding-top: 5.25rem;
+  }
+  .home__container{
+    grid-template-columns: 1fr;
+  }
+  .home__img{
+    display: none;
+  }
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+  .home{
+    padding-top: 4.4rem;
+  }
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+  .home__work{
+    font-size: var(--fs-sm);
+  }
+
+  .home__list{
+    font-size: .875rem;
+  }
+
+  .home__list dd{
+    padding-left: 5.75em;
+  }
+
+  .home__social-link{
+    font-size: 1.3rem;
+  }
+}

@@ -100,3 +100,41 @@
 .swiper-pagination-bullet-active{
   background-color: #fff;
 }
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  .testimonial__container{
+    padding-top: 4.4rem;
+    padding-bottom: 6.25rem;
+  }
+
+  .testimonial__item{
+    padding: 0 3.875rem;
+  }
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+  .testimonial__item{
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .testimonial__item{
+    padding: 0 1.5rem;
+  }
+
+  .swiper-button-next img,
+  .swiper-button-prev img{
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+}

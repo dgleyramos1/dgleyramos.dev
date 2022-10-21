@@ -1,7 +1,9 @@
 /*=============== Projects ===============*/
 .project__categories{
   display: flex;
+  flex-wrap: wrap;
   column-gap: 3rem;
+  row-gap: .25rem;
   margin-bottom: 1.875rem;
 }
 .projects__container{
@@ -57,4 +59,34 @@
 .project__link--item{
   color: var(--primary-color);
   font-family: var(--mono-font);
+}
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  .project__item{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+  .project__data{
+    padding: 2rem 1.25rem 1.5rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .project__categories{
+    column-gap: 1.5rem;
+  }
+  .tags li{
+    margin-bottom: .6rem;
+  }
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
 }

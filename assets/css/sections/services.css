@@ -64,3 +64,28 @@
 .services__title {
   margin-bottom: .8em;
 }
+
+/*=============== BreakPoints ===============*/
+/* for large devices */
+@media screen and (max-width: 1200px) {
+  .services__container{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 992px) {}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+  .services__container{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+}
