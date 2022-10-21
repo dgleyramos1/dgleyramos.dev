@@ -95,4 +95,13 @@
   bottom: 34%;
   left: 0;
   font-family: var(--mono-font);
+  color: #fff;
+}
+
+.color-light {
+  opacity: 1;
+}
+
+.color-dark{
+  opacity: .4;
 }

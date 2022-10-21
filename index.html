@@ -581,6 +581,7 @@
       </section>
 
       <!--=============== Testimonials ===============-->
+      <!--
       <section class="testimonials section">
         <div class="testimonial__bg">
           <div class="testimonial__icon">
@@ -630,8 +631,6 @@
               </div>
 
             </div>
-
-            <!--   Swiper Controlls  -->
             <div class="swiper-button-next">
               <img src="./assets/img/arrow-next.svg"
               alt="Icon arrow next">
@@ -644,7 +643,7 @@
           </div>
         </div>
       </section>
-
+      -->
       <!--=============== Contact ===============-->
       <section class="contact section" id="contact">
         <div class="contact__content container">
@@ -698,11 +697,12 @@
                 Ou apenas me escreva uma carta aqui_
               </p>
 
-              <form action="" id="contact">
+              <form id="contact-form">
 
                 <div class="contact__input-div">
                   <input
                     type="text"
+                    name="name"
                     placeholder="Seu nome"
                     class="contact__input"
                     id="contact-name"  
@@ -712,6 +712,7 @@
                 <div class="contact__input-div">
                   <input
                     type="email"
+                    name="email"
                     placeholder="Seu e-mail"
                     class="contact__input"
                     id="contact-email"  
@@ -720,6 +721,7 @@
 
                 <div class="contact__input-div">
                   <textarea
+                    name="message"
                     placeholder="Digite a mensagem aqui"
                     class="contact__input textarea"
                     id="message"
@@ -728,13 +730,12 @@
                     ></textarea>
                 </div>
 
-                <p class="contact__message text-sm" id="contact-message">
-                  Mensagem
-                </p>
+                <p class="contact__message text-sm" id="contact-message"></p>
 
                 <button
                   type="submit"
                   class="button contact__button"
+                  id="send"
                 >
                   Enviar
                 </button>
