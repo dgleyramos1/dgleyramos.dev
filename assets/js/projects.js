@@ -1,39 +1,10 @@
 
 const projects = [
   {
-    id: 1,
     class: "api",
     title: "TESTE 1",
     description: "Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye. Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.",
     image: "./assets/img/project-1.png",
-    tags: [
-      {
-        title: "html5"
-      },
-      {
-        title: "csss3"
-      },
-      {
-        title: "Javascript"
-      },
-      {
-        title: "BEM"
-      },
-      {
-        title: "bower"
-      },
-      {
-        title: "grunt"
-      }
-    ],
-    link: "www.google.com"
-  },
-  {
-    id: 2,
-    class: "institucional",
-    title: "TEST 2",
-    description: "Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye. Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.",
-    image: "./assets/img/project-2.png",
     tags: [
       {
         title: "html5"
