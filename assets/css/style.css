@@ -103,6 +103,26 @@ input {
   display: grid;
 }
 
+.section{
+  padding: 3.75rem 0;
+}
+
+.section__title{
+  font-size: var(--fs-h2);
+  line-height: 1.17em;
+  font-weight: var(--medium);
+  margin-bottom: 1.12em;
+}
+
+.text-lg{
+  font-size: var(--fs-lg);
+  line-height: 1.67em;
+}
+
+.text-sm{
+  font-size: var(--fs-sm);
+  line-height: 1.43em;
+}
 
 
 /* Scroll Header */

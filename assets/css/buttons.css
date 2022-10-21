@@ -1,1 +1,21 @@
 /*=============== Buttons ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1.1em 2.1em;
+  border-radius: 1.56rem;
+  font-weight: var(--semibold);
+  transition: .3s;
+}
+
+.button:hover{
+   background-color: var(--primary-color-alt);
+}
+
+
+.button--flex {
+  display: inline-block;
+  align-items: flex-start;
+  column-gap: .3rem;
+}
