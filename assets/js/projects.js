@@ -1,10 +1,10 @@
 
 const projects = [
   {
-    class: "api",
-    title: "TESTE 1",
-    description: "Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye. Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.",
-    image: "./assets/img/project-1.png",
+    class: "desafio",
+    title: "Blogr",
+    description: "Esta é uma solução para o desafio da página de destino do Blogr no Frontend Mentor. Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.",
+    image: "./assets/img/projects/blogr.png",
     tags: [
       {
         title: "html5"
@@ -14,19 +14,127 @@ const projects = [
       },
       {
         title: "Javascript"
-      },
-      {
-        title: "BEM"
-      },
-      {
-        title: "bower"
-      },
-      {
-        title: "grunt"
       }
     ],
-    link: "www.google.com"
-  }
+    link: "https://dgleyramos1.github.io/blogr/"
+  },
+  {
+    class: "api",
+    title: "Cloud Parking",
+    description: "REST API para controle de estacionamento de carros.",
+    image: "./assets/img/projects/parking.png",
+    tags: [
+      {
+        title: "Maven"
+      },
+      {
+        title: "JDK 11"
+      },
+      {
+        title: "Java"
+      },
+      {
+        title: "Spring Boot"
+      }
+    ],
+    link: "https://github.com/dgleyramos1/cloud-parking"
+  },
+  {
+    class: "desafio",
+    title: "Alura Store",
+    description: "Aplicação desenvolvida para aprimorar o uso de CSS Grid Layout.",
+    image: "./assets/img/projects/alurastore.png",
+    tags: [
+      {
+        title: "Html5"
+      },
+      {
+        title: "Css3"
+      },
+      {
+        title: "Grid Layout"
+      }
+    ],
+    link: "https://dgleyramos1.github.io/alura-store/"
+  },
+  {
+    class: "desafio",
+    title: "Github Interface",
+    description: "Aplicação desenvolvida para aprimorar o uso de React e também de requisições de apis",
+    image: "./assets/img/projects/githubinterface.png",
+    tags: [
+      {
+        title: "React"
+      },
+      {
+        title: "React Tabs"
+      },
+      {
+        title: "Styled Components"
+      },
+      {
+        title: "React Dom"
+      }
+    ],
+    link: "https://github-interface.netlify.app/"
+  },
+  {
+    class: "jogo",
+    title: "Mata Mosquito",
+    description: "Aplicação desenvolvida para aprimorar a lógica de programação no desenvolvimento de jogos",
+    image: "./assets/img/projects/matamosquito.png",
+    tags: [
+      {
+        title: "Html"
+      },
+      {
+        title: "Css"
+      },
+      {
+        title: "Javascript"
+      }
+    ],
+    link: "https://dgleyramos1.github.io/mata-mosquito/"
+  },
+  {
+    class: "landing",
+    title: "Finans",
+    description: "Aplicação desenvolvida para aprimorar o uso do bootstrap",
+    image: "./assets/img/projects/finans.png",
+    tags: [
+      {
+        title: "Html"
+      },
+      {
+        title: "Css"
+      },
+      {
+        title: "bootstrap"
+      }
+    ],
+    link: "https://dgleyramos1.github.io/finans/"
+  },
+  {
+    class: "api",
+    title: "Task List",
+    description: "REST API para gerenciamento de tarefas",
+    image: "./assets/img/projects/task.png",
+    tags: [
+      {
+        title: "Maven"
+      },
+      {
+        title: "JDK 11"
+      },
+      {
+        title: "Java"
+      },
+      {
+        title: "Spring Boot"
+      }
+    ],
+    link: "https://github.com/dgleyramos1/Task-List"
+  },
 ]
 
 
