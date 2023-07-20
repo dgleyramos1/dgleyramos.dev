@@ -1,140 +1,44 @@
 
 const projects = [
   {
-    class: "desafio",
-    title: "Blogr",
-    description: "Esta é uma solução para o desafio da página de destino do Blogr no Frontend Mentor. Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.",
-    image: "./assets/img/projects/blogr.png",
+    class: "desktop",
+    title: "Open Road",
+    description: "Em resumo, O OpenRoad é uma ferramenta fundamental para qualquer estabelecimento que trabalhe com esse sistema de atendimento. Ele ajuda a melhorar a eficiência, reduzir erros e proporcionar uma experiência melhor aos clientes.",
+    image: "./assets/img/projects/openroad-desktop.jpeg",
     tags: [
-      {
-        title: "html5"
-      },
-      {
-        title: "csss3"
-      },
-      {
-        title: "Javascript"
-      }
-    ],
-    link: "https://dgleyramos1.github.io/blogr/"
-  },
-  {
-    class: "api",
-    title: "Cloud Parking",
-    description: "REST API para controle de estacionamento de carros.",
-    image: "./assets/img/projects/parking.png",
-    tags: [
-      {
-        title: "Maven"
-      },
-      {
-        title: "JDK 11"
-      },
       {
         title: "Java"
+      },
+      {
+        title: "css"
+      },
+      {
+        title: "JavaFX"
       },
       {
         title: "Spring Boot"
       }
     ],
-    link: "https://github.com/dgleyramos1/cloud-parking"
+    link: "https://github.com/dgleyramos1/openroad-desktop"
   },
   {
-    class: "desafio",
-    title: "Alura Store",
-    description: "Aplicação desenvolvida para aprimorar o uso de CSS Grid Layout.",
-    image: "./assets/img/projects/alurastore.png",
+    class: "mobile",
+    title: "Open Road - mobile",
+    description: "Aplicativo mobile para auxiliar aos atendentes do estabelecimento a abrir e fechar mesas como também fazer seus pedidos e ter o cálculo de tudo na palma de sua mão.",
+    image: "./assets/img/projects/openroad-mobile.jpeg",
     tags: [
       {
-        title: "Html5"
+        title: "React Native"
       },
       {
-        title: "Css3"
+        title: "CSS Module"
       },
       {
-        title: "Grid Layout"
+        title: "Expo"
       }
     ],
-    link: "https://dgleyramos1.github.io/alura-store/"
-  },
-  {
-    class: "desafio",
-    title: "Github Interface",
-    description: "Aplicação desenvolvida para aprimorar o uso de React e também de requisições de apis",
-    image: "./assets/img/projects/githubinterface.png",
-    tags: [
-      {
-        title: "React"
-      },
-      {
-        title: "React Tabs"
-      },
-      {
-        title: "Styled Components"
-      },
-      {
-        title: "React Dom"
-      }
-    ],
-    link: "https://github-interface.netlify.app/"
-  },
-  {
-    class: "jogo",
-    title: "Mata Mosquito",
-    description: "Aplicação desenvolvida para aprimorar a lógica de programação no desenvolvimento de jogos",
-    image: "./assets/img/projects/matamosquito.png",
-    tags: [
-      {
-        title: "Html"
-      },
-      {
-        title: "Css"
-      },
-      {
-        title: "Javascript"
-      }
-    ],
-    link: "https://dgleyramos1.github.io/mata-mosquito/"
-  },
-  {
-    class: "landing",
-    title: "Finans",
-    description: "Aplicação desenvolvida para aprimorar o uso do bootstrap",
-    image: "./assets/img/projects/finans.png",
-    tags: [
-      {
-        title: "Html"
-      },
-      {
-        title: "Css"
-      },
-      {
-        title: "bootstrap"
-      }
-    ],
-    link: "https://dgleyramos1.github.io/finans/"
-  },
-  {
-    class: "api",
-    title: "Task List",
-    description: "REST API para gerenciamento de tarefas",
-    image: "./assets/img/projects/task.png",
-    tags: [
-      {
-        title: "Maven"
-      },
-      {
-        title: "JDK 11"
-      },
-      {
-        title: "Java"
-      },
-      {
-        title: "Spring Boot"
-      }
-    ],
-    link: "https://github.com/dgleyramos1/Task-List"
-  },
+    link: "https://github.com/dgleyramos1/openroad-mobile"
+  }
 ]
 
 
@@ -238,7 +142,7 @@ function criarLink(pathLink){
   link.href = pathLink;
   link.classList.add('project__link--item');
   link.classList.add('text-sm');
-  link.textContent = "Demostração";
+  link.textContent = "Github";
   link.setAttribute('target', '_blank');
   return link;
 }
